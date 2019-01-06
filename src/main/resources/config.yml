@@ -1,0 +1,60 @@
+options:
+  allow-certification: true
+  mysql:
+    allow: true
+    host: localhost
+    port: 3306
+    database: smc
+    user: smc
+    password: smc
+    update: 300
+
+socials:
+  facebook:
+    active: true
+    server-only: false
+    name: '&bFacebook'
+    url: 'https://facebook.com/{from}'
+    base64: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGViNDYxMjY5MDQ0NjNmMDdlY2ZjOTcyYWFhMzczNzNhMjIzNTliNWJhMjcxODIxYjY4OWNkNTM2N2Y3NTc2MiJ9fX0='
+    description:
+      - '&bFacebook'
+  twitter:
+    active: true
+    server-only: false
+    name: '&bTwitter'
+    url: 'https://twitter.com/{from}'
+    base64: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M3NDVhMDZmNTM3YWVhODA1MDU1NTkxNDllYTE2YmQ0YTg0ZDQ0OTFmMTIyMjY4MThjMzg4MWMwOGU4NjBmYyJ9fX0='
+    description:
+    - '&bTwitter'
+  discord:
+    active: true
+    server-only: true
+    name: '&bDiscord'
+    url: 'https://discord.gg/{from}'
+    base64: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg3M2MxMmJmZmI1MjUxYTBiODhkNWFlNzVjNzI0N2NiMzlhNzVmZjFhODFjYmU0YzhhMzliMzExZGRlZGEifX19'
+    description:
+    - '&bDiscord'
+  twitch:
+    active: true
+    server-only: false
+    name: '&5Twitch'
+    url: 'https://twitch.tv/{from}'
+    base64: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZiZTY1ZjQ0Y2QyMTAxNGM4Y2RkZDAxNThiZjc1MjI3YWRjYjFmZDE3OWY0YzFhY2QxNThjODg4NzFhMTNmIn19fQ=='
+    description:
+      - '&5Twitch'
+  github:
+    active: false
+    server-only: false
+    name: '&5Github'
+    url: 'https://github.com/{from}'
+    base64: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZlMjdkYTEyODE5YThiMDUzZGEwY2MyYjYyZGVjNGNkYTkxZGU2ZWVlYzIxY2NmM2JmZTZkZDhkNDQzNmE3In19fQ=='
+    description:
+    - '&5Github'
+  youtube:
+    active: true
+    server-only: false
+    name: '&cYoutube'
+    url: 'https://youtube.com/channels/{from}'
+    base64: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3OWQ2MzBmODUxYzU4OTdkYTgzYTY0MjUxNzQzM2Y2NWRjZmIzMmIxYmFiYjFmZWMzMmRhNzEyNmE5ZjYifX19'
+    description:
+    - '&cYoutube'

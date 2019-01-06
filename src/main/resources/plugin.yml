@@ -1,0 +1,15 @@
+name: SocialMC
+
+main: fr.triozer.smc.SocialMC
+author: Triozer
+website: https://triozer.fr
+version: development
+
+api-version: 1.13
+
+description: Add socials to your server.
+softdepend: [PlaceholderAPI]
+
+commands:
+  social:
+    description: Main command of the plugin.

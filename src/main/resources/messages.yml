@@ -1,0 +1,30 @@
+head:
+  certified: '&a✔'
+  non-certified: '&c✖'
+  open: 'Clique droit pour ouvrir le lien'
+  change: 'Clique gauche pour le changer'
+item:
+  validator:
+    accept: '&aAccepte'
+    decline: '&cRefuse'
+    cancel: '&cVeux-tu annuler ?'
+    remove: '&cVeux-tu supprimer ?'
+  edit:
+    name: '&eModifie les réseaux sociaux de &c{0}&e.'
+    lore:
+message:
+  head:
+    open-link: '&7Clique pour ouvrir le lien {0} &7de &e{1}&7.'
+    hove-link: '&a{0}'
+    display-name: '&7Le {0}&7 de &e{1}&7 est &a{2}&7.'
+  unknown:
+    player: '&c`&e{0}&c` n''est pas reconnu.'
+    social: '&c`&e{0}&c` n''est pas un réseau connu.'
+  validator:
+    choose: '&eEntre le nom de &e{0} sur {1}&e:'
+    accept: '&aTu viens de changer le nom de &e{0} &apour le réseau {1}&a.'
+    decline: '&cTu n''as pas changé le nom de &e{0} &cpour le réseau {1}&c.'
+    cancel: '&cTu as annulé le changement de nom de &e{0} &cpour le réseau {1}&c.'
+    remove: '&cTu as enlevé le réseau &e{0} &cpour {1}&c.'
+    same: '&cTu n''as pas changé de nom ! Tape &b-cancel&c pour abandonner ou entre un nouveau nom.'
+    token: '&aEnvoie le token &b{0}&a en message privé à &bSocialMC&a sur {1}&c.'
